@@ -18,7 +18,8 @@ A detailed analytical report discussing the methods and results can be found in 
 
 # Dependencies
 Use pip to install any missing dependencies found in requirements.txt.
-pip3 install -r requirements.txt
+
+pip install -r requirements.txt
 
 
 
