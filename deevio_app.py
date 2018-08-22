@@ -61,7 +61,7 @@ def predict():
             image = Image.open(io.BytesIO(image))
      
             # preprocess the image and prepare it for classification
-            image = prepare_image(image, width=300)
+            image = prepare_image(image, width=1000)
             
             # classify the input image and then initialize the list
             # of predictions to return to the client

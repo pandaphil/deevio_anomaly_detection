@@ -206,8 +206,7 @@ model_name="vae_mlp")
     X['label'] = y_test
     
     classification_report = classification_report(y_test, clusterer.labels_)
-    result = classifier.score(clusterer.labels_, y_test)
-    print(result)
+    
     print(X.head(50))   
     print("VAE classification_report: ", classification_report)
 
