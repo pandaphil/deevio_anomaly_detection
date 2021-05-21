@@ -16,6 +16,6 @@ scikit-image==0.14.0
 scikit-learn==0.19.1
 scipy==1.0.0
 tensorboard==1.6.0
-tensorflow==1.6.0
+tensorflow==2.5.0
 urllib3==1.13.1
 utils==0.9.0
